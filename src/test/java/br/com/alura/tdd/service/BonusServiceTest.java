@@ -18,6 +18,7 @@ class BonusServiceTest {
 		
 		assertEquals(new BigDecimal("0.00"), bonus);
 	}
+	
 	@Test
 	void bonusDeveriaSerDezPorcentoDoSalario() {//teste salario com valor abaixo de 1000
 		BonusService serce = new BonusService();
